@@ -1,0 +1,153 @@
+
+
+@media (max-width: 1199.98px) {
+
+}
+
+@media (max-width: 991.98px) {
+	nav.menu {
+		display: none;
+		position: fixed;
+		top: 0px;
+		left: -100%;
+		width: 75%;
+		height: 100%;
+		background: rgb(3, 107, 185);
+		z-index: 10;
+		display: block;
+		transition: all 0.7s;
+	}
+	nav.menu.open {
+		left: 0;
+	}
+	#menuToggle {
+		display: flex;
+	}
+	.texed .title {
+		font-size: 45px;
+	}
+	.check-in {
+		flex-wrap: wrap;
+	}
+	.check-input {
+		margin-right: 0;
+		width: 100%;
+	}
+	.check-input:nth-child(2) {
+		width: 100%;
+		margin-bottom: 20px;
+		margin-top: 10px;
+	}
+
+	.destinations-wrapper .text {
+		left: 9px;
+	}
+	.destinations-alignment {
+    flex-direction: column;
+  }
+  .destinations-wrapper {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+
+
+  .firm-wrap {
+  	overflow-x: auto;
+  }
+
+  .boats__img {
+    width: 198px;
+  }
+  .boats__wrap {
+  	flex-wrap: wrap;
+  }
+
+  .blog {
+  	overflow-x: auto;
+  }
+
+  .equalization-wrap {
+  	flex-direction: column;
+  }
+  .equalization-item {
+  	margin-right: 0;
+  	margin-bottom: 20px;
+  }
+
+
+
+
+  .footer-wrap {
+    flex-wrap: wrap;
+    width: 86%;
+  }
+  .footer {
+  	height: auto;
+  }
+}
+
+
+@media (max-width: 767.98px) {
+	.texed .title {
+		font-size: 33px;
+	}
+	.texed {
+    padding-top: 120px; 
+  }
+  .texed .subtitle {
+    margin-bottom: 59px;
+  }
+
+  .boats__wrap {
+  	justify-content: center;
+  }
+
+
+  a#nav-home-tab {
+  	width: 100%;
+  }
+  .tabs__item .nav {
+  	flex-direction: column;
+  }
+	
+
+	.footer-wrap {
+		align-items: flex-start;
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 575.98px) {
+	.check-in {
+		flex-direction: column;
+		width: 100%;
+	}
+	.check-input:nth-child(3) {
+		width: 100%;
+	}
+	.texed {
+		align-items: flex-start;
+	}
+	.check-input:nth-child(2) {
+		margin-bottom: 10px;
+	}
+	.btn {
+		margin-top: 20px;
+	}
+	.subtitle {
+		display: none;
+	}
+	.logo a img {
+		display: none;
+	}
+	.logo b {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 461px) {
+	.boats__img {
+		width: 100%;
+	}
+}
